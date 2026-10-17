@@ -1,16 +1,49 @@
-# React + Vite
+# TechNova Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple, modern, and responsive homepage for a software development company named TechNova. It was built using React.js and plain CSS.
 
-Currently, two official plugins are available:
+## Features
+- **Navbar**: Includes logo and links (Home, About, Services, Contact), with mobile menu toggle.
+- **Hero Section**: Heading, description, and "Get Started" call-to-action button.
+- **Services Section**: Responsive grid showing Web Development, Mobile Apps, and AI Solutions service cards.
+- **Footer**: Copyright information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
 
-## React Compiler
+Follow these steps to run the application locally on your machine.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+You need Node.js and npm installed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. **Clone the repository** (if applicable) or download the files.
+2. **Navigate to the project directory**:
+   ```bash
+   cd <project-directory>
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+This will start Vite's local development server. Look in your console output for the local URL (usually `http://localhost:5173/`) and open it in your browser.
+
+## Built With
+- React 19
+- Vite
+- Plain CSS
+
+## Project Structure
+- `src/components/`: Contains reusable React components (Navbar, Hero, Services, Footer).
+- `src/index.css`: Global styles, resets, and variables.
+- `src/App.jsx`: Main application container.

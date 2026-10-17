@@ -1,12 +1,18 @@
-import React, { useState,useEffect, useRef } from 'react'
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import Footer from './components/Footer';
 
 const App = () => {
-
-  return(
-    <>  
-    <h1>Render count:</h1>
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Services />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
