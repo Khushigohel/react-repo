@@ -389,4 +389,13 @@ body {
     gap: 1rem;
     text-align: center;
   }
+/* App.css can remain empty or hold app-specific wrapper styles */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
