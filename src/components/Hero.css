@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  min-height: 60vh;
 }
 
 .hero-content {
@@ -14,38 +14,38 @@
 
 .hero h1 {
   font-size: 3rem;
-  color: #222222;
+  color: #333;
   margin-bottom: 1rem;
 }
 
 .hero p {
-  font-size: 1.25rem;
-  color: #666666;
+  font-size: 1.2rem;
+  color: #666;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
 
-.btn-get-started {
+.cta-button {
   background-color: #007bff;
-  color: white;
+  color: #fff;
   border: none;
-  padding: 0.8rem 2rem;
+  padding: 0.75rem 1.5rem;
   font-size: 1.1rem;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
 }
 
-.btn-get-started:hover {
+.cta-button:hover {
   background-color: #0056b3;
 }
 
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .hero p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }

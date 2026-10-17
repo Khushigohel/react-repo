@@ -1,13 +1,13 @@
-
+import React from 'react';
 import './Hero.css';
 
 const Hero = () => {
   return (
-    <section id="home" className="hero">
+    <section className="hero" id="home">
       <div className="hero-content">
-        <h1>Transforming Ideas into Digital Reality</h1>
-        <p>We build innovative software solutions that drive business growth and user engagement.</p>
-        <button className="btn-get-started">Get Started</button>
+        <h1>Building the Future with Code</h1>
+        <p>We deliver innovative software solutions to help your business grow and thrive in the digital age.</p>
+        <button className="cta-button">Get Started</button>
       </div>
     </section>
   );
